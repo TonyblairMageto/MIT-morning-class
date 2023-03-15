@@ -1,0 +1,29 @@
+input[type=text],input[type=email],input[type=tel],input[type=textarea]{
+
+    width: 105%;
+
+}
+.to{
+    background-color: maroon;
+    padding: 20px;
+}
+form{
+    width: 70%;
+    padding: 100px;
+}
+legend{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+label{
+    color: white;
+}
+input[type=submit]{
+    height: 45px;
+    color: white;
+    background-color: #ec981c;
+}
+input[type=submit]:hover{
+    background-color: #1e721f;
+}

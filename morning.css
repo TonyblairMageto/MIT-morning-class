@@ -1,0 +1,10 @@
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity:1.0;
+    filter: blur(2px);
+}

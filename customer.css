@@ -1,0 +1,13 @@
+input[type=text],input[type=select],input[type=date]{
+    width: 250px;
+
+}
+label{
+    width: 200px;
+
+}
+input[type=submit]{
+    background-color: grey;
+    width: 50px;
+    height: 45px;
+}

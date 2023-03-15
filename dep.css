@@ -1,0 +1,26 @@
+table{
+    width: 100%;
+    height: 300px;
+    border-collapse: collapse;
+}
+th,td{
+    border-bottom: 1px solid black;
+    border-right: 1px solid white;
+    border-top: 2px solid white;
+}
+th{
+    background-color: #648ffd;
+}
+tr:hover{
+    background-color: darkgrey;
+}
+tr:nth-child(even){
+    background-color: #ada7a7;
+}
+.tn{
+    color: #e2ef26;
+}
+.d{
+    color: white;
+}
+

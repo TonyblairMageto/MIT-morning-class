@@ -1,0 +1,44 @@
+input[type=text],input[type=email]{
+    display:inline-block ;
+    border-radius: 7px;
+    height: 35px;
+    width: 300px;
+}
+input[type=submit]{
+    background-color: #050505;
+    color: white;
+    width: 380px;
+    border-radius: 7px;
+    height: 40px;
+    border: 1px solid black;
+
+}
+form {
+    text-align: center;
+    float:left ;
+    margin-left: 170px;
+
+}
+body{
+    background-color: blueviolet;
+}
+legend{
+    text-align:left;
+    color: white;
+    font-family: "Abyssinica SIL";
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.su{
+    text-align: left;
+    padding: 100px;
+    margin: 80px;
+}
+label{
+    color: white;
+    font-size: 15px;
+}
+input[type=submit]:hover{
+    background-color: green;
+}
+

@@ -1,0 +1,24 @@
+input[type=text],input[type=email],input[type=password],select{
+    display: inline-block;
+    border-radius: 15px;
+    width: 100%;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 3px 2px cadetblue;
+    padding: 12px 15px;
+}
+.cl{
+    height: 500px;
+    background-color: #357930;
+    padding: 100px;
+    margin: 70px;
+}
+input[type=submit]{
+    width: 100%;
+    height: 40px;
+    background-color: #14dccb;
+}
+input[type=submit]:hover{
+    background-color: #bd0731;
+}
+

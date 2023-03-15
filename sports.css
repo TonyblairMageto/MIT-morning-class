@@ -1,0 +1,21 @@
+body{
+    padding: 50px;
+}
+label{
+    width: 200px;
+    text-align: left;
+    float: left;
+}
+input{
+    float: left;
+   width: 100px;
+              
+}
+.ss{
+    background-color: #e2ef26;
+}
+.ll{
+    font-size: 30px;
+}
+
+

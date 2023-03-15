@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation</title>
+    <script type="text/javascript">
+        function validate(){
+            var Username=document.getElementById("nme");
+            var Password=document.getElementById("password");
+
+             if(Username.value==""||Password.value==""){
+                 alert("no blank values allowed");
+                 return false;
+             }
+             else{
+                 return true;
+
+             }
+
+        }
+
+    </script>
+
+</head>
+<body>
+<form  onsubmit="return validate()"  action="drill.html">
+    <label for="nme">Username:</label>
+    <input type="text"  id="nme"><br><br>
+
+    <label for="pass">Password:</label>
+    <input type="password"  id="pass"><br><br>
+
+<button type="submit">submit</button>
+
+
+</form>
+</body>
+</html>

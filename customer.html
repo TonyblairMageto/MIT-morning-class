@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CUSTOMER</title>
+    <link rel="stylesheet" href="customer.css">
+    <script type="text/javascript">
+
+        function customer(){
+            var Name=document.getElementById("name");
+            var Email=document.getElementById("email");
+            var Investment=document.getElementById("inv");
+            var Date=document.getElementById("dat");
+
+            if (Name.value==""||Email.value==""||Investment.value==""||Date.value==""){
+                alert("FILL THE FORM");
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+<form   onsubmit="return customer()" action="employees.html">
+  <fieldset>
+    <legend>Customer</legend>
+  <label for="name">Name<sup  style="color: #bd0731">*</sup></label>
+  <input type="text"  id="name"><br><br>
+  <label for="email">Email<sup style="color: #bd0731" >*</sup></label>
+  <input type="email" id="email"><br><br>
+  <label for="inv">Investments</label>
+  <select name="" id="inv">
+    <option value="None ">None</option>
+    <option value="Invested">Invested</option>
+  </select><br><br>
+    <label for="dat">Date Joined<sup  style="color: #bd0731">*</sup></label>
+    <input type="date"  id="dat"><br><br>
+ Active <input type="checkbox"  name="Active">
+  Not Active <input type="checkbox">
+  <br><br>
+</fieldset>
+  <br><br>
+
+  <input type="submit"  value="OK">
+
+
+</form>
+
+</body>
+</html>
